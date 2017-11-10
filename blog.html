@@ -1,0 +1,20 @@
+---
+layout: default
+title: Blog
+navigation_weight: 3
+---
+
+<h1>Blog</h1>
+
+<ul>
+	{% for bp in site.posts %}
+		<li>
+			{% if bp.permalink %}
+				<a href="{{ bp.permalink }}">{{ bp.title }}</a>
+			{% else %}
+				<a href="{{ bp.url }}">{{ bp.title }}</a>
+			{% endif %}
+			<p>{{ bp.excerpt }}</p>
+		</li>
+	{% endfor %}
+</ul>

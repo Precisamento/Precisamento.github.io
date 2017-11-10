@@ -1,0 +1,8 @@
+- link: /
+  name: Home
+- link: /docs/
+  name: Docs
+- link: /games/
+  name: Games
+- link: /blog/
+  name: Blog
