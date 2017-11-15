@@ -30,16 +30,16 @@ var map = json_decode(json);
 JSON result:
 ```json
 {
-    index: 0,
-    length: 5,
-    success: 1,
-    name: "0",
-    value: "hello",
-    captures: [
+    "index": 0,
+    "length": 5,
+    "success": 1,
+    "name": "0",
+    "value": "hello",
+    "captures": [
         {
-            index: 0,
-            length: 5,
-            value: "hello"
+            "index": 0,
+            "length": 5,
+            "value": "hello"
         }
     ]
 }
