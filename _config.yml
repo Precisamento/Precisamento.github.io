@@ -1,6 +1,34 @@
+# Permalinks
+permalink: pretty
+
+# Setup
 title: Precisamento
 description: Home page for all things related to Precisamento LLC
-theme: jekyll-theme-modernist
+baseurl: ""
+
+# Syntax
 markdown: kramdown
 highlighter: rouge
-permalink: pretty
+kramdown:
+  input: GFM
+  auto_ids: true
+  entity_output: as_char
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+#About
+author:
+  name: Christopher Kramer
+  url: twitter.com/presicamento
+  email: ckramer017@gmail.com
+  
+#Collections
+collections:
+  extensions:
+    output: true

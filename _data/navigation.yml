@@ -1,7 +1,9 @@
 - link: /
   name: Home
-- link: /docs/
-  name: Docs
+- link: /extensions/
+  name: Gamemaker Assets
+- link: /libraries/
+  name: Libraries
 - link: /games/
   name: Games
 - link: /blog/

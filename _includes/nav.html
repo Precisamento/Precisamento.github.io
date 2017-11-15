@@ -1,7 +1,10 @@
 <nav class="nav-bar">
-	{% for item in site.data.navigation %}
-		<a href="{{ item.link }}" class="nav-bar-item {% if item.link == page.url %}active{% endif %}">
-			{{ item.name }}
-		</a>
-	{% endfor %}
+	<a href="{{ site.baseurl }}/" class="company-name">Precisamento</a>
+	<div class="container">
+		{% for item in site.data.navigation %}
+			<a href="{{ item.link }}" class="nav-bar-item {% if item.link == page.url %}active{% endif %}">
+				{{ item.name }}
+			</a>
+		{% endfor %}
+	</div>
 </nav>

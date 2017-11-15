@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{% if site.data.extensions[page.extension][page.category] %}
+
+	<h1 class="page-title">{{ page.title }}</h1>
+	<div class="functions">
+		<h3 class="functions-name">{{page.category}}</h3>
+		<ul class="functions-list">
+			<li>
+				<a href="{{ site.baseurl }}/extensions/{{ page.extension }}">Home</a>
+			</li>
+			{% for value in site.data.extensions[page.extension][page.category] %}
+				<li class="functions-list-item">
+					<a href="{{site.baseurl}}/extensions/{{page.extension}}/{{page.category}}/{{value.link}}">{{ value.name }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div class="markdown-body">
+		<article class="page">
+		
+			{{content}}
+
+		</article>
+	</div>
+
+{% else %}
+
+	<article class="page">
+		{% include page-title.html %}
+		{{content}}
+	</article>
+
+{% endif %}

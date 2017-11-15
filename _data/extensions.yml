@@ -1,0 +1,144 @@
+regex-for-gm:
+  functions:
+  - &316174013 name: regex_create
+    &1137622955 link: regex-create
+  - name: regex_destroy_id
+    link: regex-destroy-id
+  - name: regex_destroy_all
+    link: regex-destroy-all
+  - name: regex_get_matches
+    link: regex-get-matches
+  - name: regex_matches_json
+    link: regex-matches-json
+  - name: regex_matches_from
+    link: regex-matches-from
+  - name: regex_matches_from_json
+    link: regex-matches-from-json
+  - name: matches_get_count
+    link: matches-get-count
+  - name: matches_get_match
+    link: matches-get-match
+  - name: regex_is_match
+    link: regex-is-match
+  - name: regex_is_match_from
+    link: regex-is-match-from
+  - name: regex_match
+    link: regex-match
+  - name: regex_match_json
+    link: regex-match-json
+  - name: regex_match_from
+    link: regex-match-from
+  - name: regex_match_from_json
+    link: regex-match-from-json
+  - name: match_get_next_match
+    link: match-get-next-match
+  - name: match_get_index
+    link: match-get-index
+  - name: match_get_length
+    link: match-get-length
+  - name: match_get_value
+    link: match-get-value
+  - name: match_get_result
+    link: match-get-result
+  - name: match_get_groups_json
+    link: match-get-groups-json
+  - name: match_get_group_by_name
+    link: match-get-group-by-name
+  - name: match_get_group_by_name_json
+    link: match-get-group-by-name-json
+  - name: match_get_group_by_index
+    link: match-get-group-by-index
+  - name: match_get_group_by_index_json
+    link: match-get-group-by-index-json
+  - name: match_get_group_count
+    link: match-get-group-count
+  - name: group_get_index
+    link: group-get-index
+  - name: group_get_length
+    link: group-get-length
+  - name: group_get_name
+    link: group-get-name
+  - name: group_get_success
+    link: group-get-success
+  - name: group_get_value
+    link: group-get-value
+  - name: group_get_captures_json
+    link: group-get-captures-json
+  - name: group_get_capture_count
+    link: group-get-capture-count
+  - name: group_get_capture
+    link: group-get-capture
+  - name: group_get_capture_json
+    link: group-get-capture-json
+  - name: capture_get_index
+    link: capture-get-index
+  - name: capture_get_length
+    link: capture-get-length
+  - name: capture_get_value
+    link: capture-get-value
+  - name: regex_replace
+    link: regex-replace
+  - name: regex_replace_number
+    link: regex-replace-number
+  - name: regex_replace_from
+    link: regex-replace-from
+  - name: regex_split_json
+    link: regex-split-json
+  - name: regex_split_count_json
+    link: regex-split-count-json
+  - name: regex_split_from_json
+    link: regex-split-from-json
+  - name: regex_split
+    link: regex-split
+  - name: _regex_split
+    link: -regex-split
+  - name: _regex_split_count
+    link: -regex-split-count
+  - name: _regex_split_from
+    link: -regex-split-from
+  - name: _regex_split_from_count
+    link: -regex-split-from-count
+  - name: _split_get_size
+    link: -split-get-size
+  - name: _split_get_count
+    link: -split-get-count
+  - name: _split_get_index
+    link: -split-get-index
+  - name: _split_fill_buffer
+    link: -split-fill-buffer
+  - name: regex_get_cache_size
+    link: regex-get-cache-size
+  - name: regex_set_cache_size
+    link: regex-set-cache-size
+  constants:
+  - name: Regex Options
+    link: regex-options
+  - name: JSON Options
+    link: json-options
+  json:
+  - name: MATCHES
+    link: matches
+  - name: MATCH
+    link: match
+  - name: GROUPS
+    link: groups
+  - name: GROUP
+    link: group
+  - name: CAPTURES
+    link: captures
+  - name: CAPTURE
+    link: capture
+  examples:
+    - name: Hello, Regex
+      link: hello-regex
+    - name: Social Security
+      link: ssn
+    - name: Finding Matches
+      link: finding-matches
+    - name: Groups and Captures
+      link: groups-and-captures
+    - name: Replacing Matches
+      link: replacing-matches
+    - name: Splitting Strings
+      link: splitting-strings
+...

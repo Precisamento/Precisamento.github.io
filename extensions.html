@@ -1,0 +1,18 @@
+---
+layout: default
+title: Gamemaker Assets
+navigation_weight: 2
+---
+
+<h1>Gamemaker Assets</h1>
+<p>
+	Here you can find information on all of the assets I've created for Gamemaker Studio. This will include links to the marketplace where you can download them, links to their documentation, and links to their source code if available. If you have any questions regarding them, please feel free to contact me.
+</p>
+
+{% for ext in site.extensions %}
+    <h2 class="extension-title"><a href="{{site.baseurl}}{{ext.permalink}}">{{ext.title}}</a></h2>
+    <p>{{ext.description}}</p>
+    {% if ext.marketplace %}
+        <p><a href="{{ext.marketplace}}">Marketplace</a></p>
+    {% endif %}
+{% endfor %}
