@@ -129,16 +129,55 @@ regex-for-gm:
   - name: CAPTURE
     link: capture
   examples:
-    - name: Hello, Regex
-      link: hello-regex
-    - name: Social Security
-      link: ssn
-    - name: Finding Matches
-      link: finding-matches
-    - name: Groups and Captures
-      link: groups-and-captures
-    - name: Replacing Matches
-      link: replacing-matches
-    - name: Splitting Strings
-      link: splitting-strings
+  - name: Hello, Regex
+    link: hello-regex
+  - name: Social Security
+    link: ssn
+  - name: Finding Matches
+    link: finding-matches
+  - name: Groups and Captures
+    link: groups-and-captures
+  - name: Replacing Matches
+    link: replacing-matches
+  - name: Splitting Strings
+    link: splitting-strings
+gm-serialize:
+  functions:
+  - name: instance_serialize
+    link: instance-serialize
+  - name: instance_deserialize
+    link: instance-deserialize
+  - name: instance_to_map
+    link: instance-to-map
+  - name: instance_from_map
+    link: instance-from-map
+  - name: serialize_list
+    link: serialize-list
+  - name: deserialize_list
+    link: deserialize-list
+  - name: deserialize_array_1d
+    link: deserialize-array-1d
+  - name: serialize_array_2d
+    link: serialize-array-2d
+  - name: deserialize_array_2d
+    link: deserialize-array-2d
+  - name: serialize_map
+    link: serialize-map
+  - name: deserialize_map
+    link: deserialize-map
+  - name: serialize_grid
+    link: serialize-grid
+  - name: deserialize_grid
+    link: deserialize-grid
+  - name: serialize_nested_instance
+    link: serialize-nested-instance
+  - name: deserialize_nested_instance
+    link: deserialize-nested-instance
+  - name: serialize_ignore
+    link: serialize-ignore
+  examples:
+  - name: Basic Serialization
+    link: basic-serialization
+  - name: Complex Serialization
+    link: complex-serialization
 ...

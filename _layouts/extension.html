@@ -2,6 +2,42 @@
 layout: default
 ---
 
+{% if site.data.extensions[page.extension] %}
+
+	<h1 class="page-title">{{ page.title }}</h1>
+	<div class="functions">
+		<a class="functions-list-home" href="{{ site.baseurl }}/extensions/{{ page.extension }}">Home</a>
+		{% for category in site.data.extensions[page.extension] %}
+		<button class="accordion">{{category[0]}}</button>
+		<div class="panel active">
+			<ul class="functions-list">
+			{% for value in category[1] %}
+				<li class="functions-list-item">
+					<a href="{{site.baseurl}}/extensions/{{page.extension}}/{{category[0]}}/{{value.link}}">{{ value.name }}</a>
+				</li>
+			{% endfor %}
+			</ul>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="markdown-body">
+		<article class="page">
+		
+			{{content}}
+
+		</article>
+	</div>
+
+{% else %}
+
+	<article class="page">
+		{% include page-title.html %}
+		{{content}}
+	</article>
+
+{% endif %}
+
+<!--
 {% if site.data.extensions[page.extension][page.category] %}
 
 	<h1 class="page-title">{{ page.title }}</h1>
@@ -34,3 +70,4 @@ layout: default
 	</article>
 
 {% endif %}
+-->

@@ -39,7 +39,7 @@ pre.highlight {
 }
 
 pre.lineno {
-	float: right;
+	text-align: right;
 	box-sizing: content-box;
 	display: inline-block;
 	padding-right: .25rem;
@@ -54,5 +54,5 @@ pre.lineno {
 	padding-right: 0px;
 	padding-left: 0px;
 	border-right: 1px solid #ddd;
-	width: 2.5rem;
+	width: auto;
 }
