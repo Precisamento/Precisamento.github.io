@@ -40,3 +40,9 @@ This extension provides functions that will serialize and deserialize GM instanc
 {% include category-li.html name="deserialize_nested_instance" %}
 {% include category-li.html name="serialize_ignore" %}
 </ul>
+
+### Extenstion Helpers
+<ul>
+{% include category-li.html name="_convert_to_script_map" %}
+{% include category-li.html name="_convert_from_script_map" %}
+</ul>

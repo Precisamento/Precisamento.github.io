@@ -16,6 +16,7 @@ deserialize_nested_instance(value)
 | Argument | Type | Description |
 | --- | --- | --- |
 | value | real | The value to be deserialized into a nested instance. |
+| original | real | The variable as was created in the instances create event. |
 
 **Returns:** N/A
 

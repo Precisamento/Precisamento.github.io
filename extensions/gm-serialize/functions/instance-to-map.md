@@ -35,5 +35,6 @@ This function will take an instance and convert it into a ds_map. Not all of the
 * mask_index
 * persistent
 * sprite_index
+* solid
 
 If you would like to include any that aren't listed, it is easy to add. Just look in the source file for more info.

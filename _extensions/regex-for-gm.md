@@ -14,9 +14,7 @@ This extension brings the wonderful C# regex engine to Gamemaker through an exte
 For more information on what a regex is and how to use it, you can go [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions). To determine what patterns and constructs are supported, you can go [here](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference).
 
 ## Examples ##
-<ul>
 {% include examples.html %}
-</ul>
 
 ## Functions ##
 

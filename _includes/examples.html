@@ -1,3 +1,5 @@
+<ul>
 {% for example in site.data.extensions[page.extension]['examples'] %}
 <li><a href="{{site.baseurl}}/extensions/{{page.extension}}/examples/{{example.link}}">{{example.name}}</a></li>
 {% endfor %}
+</ul>

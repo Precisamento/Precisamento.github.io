@@ -175,6 +175,10 @@ gm-serialize:
     link: deserialize-nested-instance
   - name: serialize_ignore
     link: serialize-ignore
+  - name: _convert_to_script_map
+    link: -convert-to-script-map
+  - name: _convert_from_script_map
+    link: -convert-from-script-map
   examples:
   - name: Basic Serialization
     link: basic-serialization

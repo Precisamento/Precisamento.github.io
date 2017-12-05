@@ -1,0 +1,55 @@
+code, pre {
+    font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+code {
+    padding: .25em .5em;
+    color: $code-color;
+    background-color: $table-odd-color;
+    border-radius: 3px;
+}
+
+pre {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    tab-size: 4;
+}
+
+pre code {
+    padding: 0;
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent;
+}
+
+.highlight {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    line-height: 1.4;
+    background-color: transparent;
+    border-radius: .25rem;
+
+    pre {
+        overflow-x: auto;
+    }
+
+    .lineno {
+        text-align: right;
+        box-sizing: content-box;
+        display: inline-block;
+        padding-right: .25rem;
+        padding-left: .25rem;
+        color: $line-number-color;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+    }
+}
+
+.gl {
+    padding-right: 0px;
+    padding-left: 0px;
+    border-right: 1px solid #ddd;
+    width: auto;
+}

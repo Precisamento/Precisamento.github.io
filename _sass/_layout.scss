@@ -1,0 +1,144 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+footer {
+    margin-bottom: 2rem;
+}
+
+a.footer-link {
+    color: $text-color;
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+.company-name {
+    color: $company-color;
+    font-size: 1.2rem;
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    padding: 4px 16px;
+
+    &:hover {
+        color: $company-color;
+        text-decoration: none;
+    }
+}
+
+.markdown-body {
+    padding-right: 30px;
+    //margin: 0 -30px;
+    width: 75%;
+}
+
+@mixin hoverable {
+    background-color: $nav-background;
+    color: $nav-color;
+    transition: background-color 0.4s;
+
+    &:hover {
+        background-color: $nav-hover-background;
+        color: $nav-hover-color;
+    }
+}
+
+@mixin nav_button {
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.nav-bar {
+    background-color: $nav-background;
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.nav-bar-item {
+    @include hoverable;
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+div.accordion {
+    @include hoverable;
+    @include nav_button;
+    outline: none;
+    cursor: pointer;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 1px solid black;
+    text-transform: capitalize;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &.active {
+        background-color: $nav-hover-background;
+        color: $nav-hover-color;
+        text-decoration: underline;
+    }
+}
+
+.functions-list-home {
+    @include nav_button;
+    background-color: $nav-background;
+    &:hover {
+        background-color: $nav-hover-background;
+    }
+}
+
+div.panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.functions {
+    float: right;
+    display: inline-block;
+    background-color: $nav-background;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    border: 1px solid black;
+    width: 25%;
+}
+
+.functions-list {
+    list-style-type: none;
+    padding-left: .25rem;
+    padding-right: 0.5rem;
+    margin-bottom: 0px;
+}
+
+.functions-list-item {
+    list-style-type: none;
+    font-size: 0.9rem;
+    padding-bottom: 0.2rem;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    overflow: hidden;
+}
