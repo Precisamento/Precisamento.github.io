@@ -1,0 +1,5 @@
+{% if include.cat %}
+<a href="{{site.baseurl}}/extensions/{{page.extension}}/{{include.cat}}/{{ include.name | replace: '_', '-' }}">{{ include.display }}</a>
+{% else %}
+<a href="{{site.baseurl}}/extensions/{{page.extension}}/{{page.category}}/{{ include.name | replace: '_', '-' }}">{{ include.display }}</a>
+{% endif %}

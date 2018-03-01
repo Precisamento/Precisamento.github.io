@@ -1,5 +1,5 @@
 regex-for-gm:
-  functions:
+  &1984923205 functions:
   - &316174013 name: regex_create
     &1137622955 link: regex-create
   - name: regex_destroy_id
@@ -110,12 +110,12 @@ regex-for-gm:
     link: regex-get-cache-size
   - name: regex_set_cache_size
     link: regex-set-cache-size
-  constants:
+  &782204056 constants:
   - name: Regex Options
     link: regex-options
   - name: JSON Options
     link: json-options
-  json:
+  &1793935886 json:
   - name: MATCHES
     link: matches
   - name: MATCH
@@ -128,7 +128,7 @@ regex-for-gm:
     link: captures
   - name: CAPTURE
     link: capture
-  examples:
+  &1853633835 examples:
   - name: Hello, Regex
     link: hello-regex
   - name: Social Security
@@ -184,4 +184,337 @@ gm-serialize:
     link: basic-serialization
   - name: Complex Serialization
     link: complex-serialization
+mirror:
+  functions:
+  - name: &1171454536 cast
+    link: cast
+  - name: cast_new
+    link: cast-new
+  - name: cast_new_typeof
+    link: cast-new-typeof
+  - name: cast_to_ref
+    link: cast-to-ref
+  - name: cast_typeof
+    link: cast-typeof
+  - name: cast_unref
+    link: cast-unref
+  - name: compile_files
+    link: compile-files
+  - name: compile_string
+    link: compile-string
+  - name: &1979679015 consume
+    link: consume
+  - name: &91832431 copy
+    link: copy
+  - name: cs_destroy
+    link: cs-destroy
+  - name: cs_destroy_all
+    link: cs-destroy-all
+  - name: cs_init
+    link: cs-init
+  - name: debug_get_loaded_count
+    link: debug-get-loaded-count
+  - name: debug_get_saved_count
+    link: debug-get-saved-count
+  - name: debug_get_type
+    link: debug-get-type
+  - name: debug_get_type_peek
+    link: debug-get-type-peek
+  - name: debug_get_type_typeof
+    link: debug-get-type-typeof
+  - name: debug_loaded_assemblies
+    link: debug-loaded-assemblies
+  - name: debug_peek_is_null
+    link: debug-peek-is-null
+  - name: debug_type_exists
+    link: debug-type-exists
+  - name: &679819282 duplicate
+    link: duplicate
+  - name: &163736844 eq
+    link: eq
+  - name: get_add_num
+    link: get-add-num
+  - name: get_add_string
+    link: get-add-string
+  - name: get_div_num
+    link: get-div-num
+  - name: get_div_string
+    link: get-div-string
+  - name: get_instance_index_bool
+    link: get-instance-index-bool
+  - name: get_instance_index_num
+    link: get-instance-index-num
+  - name: get_instance_index_string
+    link: get-instance-index-string
+  - name: get_instance_invoke_bool
+    link: get-instance-invoke-bool
+  - name: get_instance_invoke_num
+    link: get-instance-invoke-num
+  - name: get_instance_invoke_string
+    link: get-instance-invoke-string
+  - name: get_instance_member_bool
+    link: get-instance-member-bool
+  - name: get_instance_member_num
+    link: get-instance-member-num
+  - name: get_instance_member_string
+    link: get-instance-member-string
+  - name: get_mod_num
+    link: get-mod-num
+  - name: get_mod_string
+    link: get-mod-string
+  - name: get_mul_num
+    link: get-mul-num
+  - name: get_mul_string
+    link: get-mul-string
+  - name: get_peek_bool
+    link: get-peek-bool
+  - name: get_peek_num
+    link: get-peek-num
+  - name: get_peek_string
+    link: get-peek-string
+  - name: get_saved_bool
+    link: get-saved-bool
+  - name: get_saved_num
+    link: get-saved-num
+  - name: get_saved_string
+    link: get-saved-string
+  - name: get_static_invoke_bool
+    link: get-static-invoke-bool
+  - name: get_static_invoke_num
+    link: get-static-invoke-num
+  - name: get_static_invoke_string
+    link: get-static-invoke-string
+  - name: get_static_member_bool
+    link: get-static-member-bool
+  - name: get_static_member_num
+    link: get-static-member-num
+  - name: get_static_member_string
+    link: get-static-member-string
+  - name: get_sub_num
+    link: get-sub-num
+  - name: get_sub_string
+    link: get-sub-string
+  - name: get_typeof_index_bool
+    link: get-typeof-index-bool
+  - name: get_typeof_index_num
+    link: get-typeof-index-num
+  - name: get_typeof_index_string
+    link: get-typeof-index-string
+  - name: get_typeof_invoke_bool
+    link: get-typeof-invoke-bool
+  - name: get_typeof_invoke_num
+    link: get-typeof-invoke-num
+  - name: get_typeof_invoke_string
+    link: get-typeof-invoke-string
+  - name: get_typeof_member_bool
+    link: get-typeof-member-bool
+  - name: get_typeof_member_num
+    link: get-typeof-member-num
+  - name: get_typeof_member_string
+    link: get-typeof-member-string
+  - name: &775198731 gt
+    link: gt
+  - name: &1850822730 gte
+    link: gte
+  - name: instance_invoke
+    link: instance-invoke
+  - name: load_add
+    link: load-add
+  - name: load_assembly
+    link: load-assembly
+  - name: load_bool
+    link: load-bool
+  - name: load_byte
+    link: load-byte
+  - name: load_char
+    link: load-char
+  - name: load_div
+    link: load-div
+  - name: load_double
+    link: load-double
+  - name: load_enum
+    link: load-enum
+  - name: load_enum_typeof
+    link: load-enum-typeof
+  - name: load_extern
+    link: load-extern
+  - name: load_float
+    link: load-float
+  - name: load_instance_index
+    link: load-instance-index
+  - name: load_instance_invoke
+    link: load-instance-invoke
+  - name: load_instance_member
+    link: load-instance-member
+  - name: load_instance_type
+    link: load-instance-type
+  - name: load_instance_type_as_ref
+    link: load-instance-type-as-ref
+  - name: load_int
+    link: load-int
+  - name: load_long
+    link: load-long
+  - name: load_method
+    link: load-method
+  - name: load_method_as_custom_delegate
+    link: load-method-as-custom-delegate
+  - name: load_method_as_delegate
+    link: load-method-as-delegate
+  - name: load_mod
+    link: load-mod
+  - name: load_mul
+    link: load-mul
+  - name: load_new
+    link: load-new
+  - name: load_new_typeof
+    link: load-new-typeof
+  - name: load_null
+    link: load-null
+  - name: load_sbyte
+    link: load-sbyte
+  - name: load_short
+    link: load-short
+  - name: load_static_invoke
+    link: load-static-invoke
+  - name: load_static_member
+    link: load-static-member
+  - name: load_string
+    link: load-string
+  - name: load_sub
+    link: load-sub
+  - name: load_type
+    link: load-type
+  - name: load_type_as_ref
+    link: load-type-as-ref
+  - name: load_typeof_index
+    link: load-typeof-index
+  - name: load_typeof_invoke
+    link: load-typeof-invoke
+  - name: load_typeof_member
+    link: load-typeof-member
+  - name: load_uint
+    link: load-uint
+  - name: load_ulong
+    link: load-ulong
+  - name: load_ushort
+    link: load-ushort
+  - name: &1686938493 lt
+    link: lt
+  - name: &751350546 lte
+    link: lte
+  - name: &1139067143 neq
+    link: neq
+  - name: &600428102 RegisterCallbacks
+    link: RegisterCallbacks
+  - name: save_add
+    link: save-add
+  - name: save_bool
+    link: save-bool
+  - name: save_byte
+    link: save-byte
+  - name: save_char
+    link: save-char
+  - name: save_div
+    link: save-div
+  - name: save_double
+    link: save-double
+  - name: save_enum
+    link: save-enum
+  - name: save_enum_typeof
+    link: save-enum-typeof
+  - name: save_float
+    link: save-float
+  - name: save_instance_index
+    link: save-instance-index
+  - name: save_instance_invoke
+    link: save-instance-invoke
+  - name: save_instance_member
+    link: save-instance-member
+  - name: save_instance_type
+    link: save-instance-type
+  - name: save_instance_type_as_ref
+    link: save-instance-type-as-ref
+  - name: save_int
+    link: save-int
+  - name: save_long
+    link: save-long
+  - name: save_method
+    link: save-method
+  - name: save_method_as_custom_delegate
+    link: save-method-as-custom-delegate
+  - name: save_method_as_delegate
+    link: save-method-as-delegate
+  - name: save_mod
+    link: save-mod
+  - name: save_mul
+    link: save-mul
+  - name: save_new
+    link: save-new
+  - name: save_new_typeof
+    link: save-new-typeof
+  - name: save_null
+    link: save-null
+  - name: save_sbyte
+    link: save-sbyte
+  - name: save_short
+    link: save-short
+  - name: save_static_invoke
+    link: save-static-invoke
+  - name: save_static_member
+    link: save-static-member
+  - name: save_string
+    link: save-string
+  - name: save_sub
+    link: save-sub
+  - name: save_type
+    link: save-type
+  - name: save_type_as_ref
+    link: save-type-as-ref
+  - name: save_typeof_index
+    link: save-typeof-index
+  - name: save_typeof_invoke
+    link: save-typeof-invoke
+  - name: save_typeof_member
+    link: save-typeof-member
+  - name: save_uint
+    link: save-uint
+  - name: save_ulong
+    link: save-ulong
+  - name: save_ushort
+    link: save-ushort
+  - name: set_instance_index
+    link: set-instance-index
+  - name: set_instance_member
+    link: set-instance-member
+  - name: set_static_member
+    link: set-static-member
+  - name: set_typeof_index
+    link: set-typeof-index
+  - name: set_typeof_member
+    link: set-typeof-member
+  - name: static_invoke
+    link: static-invoke
+  - name: subscribe_method
+    link: subscribe-method
+  - name: subscribe_method_typeof
+    link: subscribe-method-typeof
+  - name: trace_extern
+    link: trace-extern
+  - name: trace_extern_peek
+    link: trace-extern-peek
+  - name: trace_extern_typeof
+    link: trace-extern-typeof
+  - name: &1551960484 typedef
+    link: typedef
+  - name: typedef_typeof
+    link: typedef-typeof
+  - name: typeof_invoke
+    link: typeof-invoke
+  - name: unsubscribe_method
+    link: unsubscribe-method
+  - name: unsubscribe_method_typeof
+    link: unsubscribe-method-typeof
+  constants: &253545744 []
+  json: []
+  examples: []
 ...

@@ -13,6 +13,9 @@ navigation_weight: 2
     <h2 class="extension-title"><a href="{{site.baseurl}}{{ext.permalink}}">{{ext.title}}</a></h2>
     <p>{{ext.description}}</p>
     {% if ext.marketplace %}
-        <p><a href="{{ext.marketplace}}">Marketplace</a></p>
+        <p class="extension-link"><a href="{{ext.marketplace}}">Marketplace</a></p>
+    {% endif %}
+    {% if ext.forums %}
+        <p class="extension-link"><a href="{{ext.forums}}">Forums</a></p>
     {% endif %}
 {% endfor %}

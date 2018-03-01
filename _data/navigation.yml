@@ -2,6 +2,8 @@
   name: Home
 - link: /extensions/
   name: Gamemaker Assets
+- link: /taffy-script/
+  name: TaffyScript
 - link: /libraries/
   name: Libraries
 - link: /games/

@@ -5,11 +5,15 @@ permalink: /extensions/gm-serialize/
 layout: extension
 category: functions
 description: This extension provides customizable functions for serializing and deserializing Gamemaker instances.
+forums: https://forum.yoyogames.com/index.php?threads/gm-serialize-convert-gamemaker-instances-to-json.38915/
+marketplace: https://marketplace.yoyogames.com/assets/5863/gm-serialize
 ---
 
-Welcome to the homepage for the GMSerialize extension.
+Welcome to the homepage for the GM Serialize extension.
 
 This extension provides functions that will serialize and deserialize GM instances to and from json files.
+
+You can download the extension from the [marketplace]({{page.marketplace}}), or ask questions on the [forums]({{page.forums}}) or [Discord]({{site.discord}}).
 
 ## Examples
 
